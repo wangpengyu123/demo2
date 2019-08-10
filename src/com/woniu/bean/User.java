@@ -24,5 +24,9 @@ public class User {
 	public String toString() {
 		return "User [uid=" + uid + ", upwd=" + upwd + "]";
 	}
+	public User() {
+		super();
+	}
+	
 	
 }
